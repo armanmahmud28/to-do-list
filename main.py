@@ -61,7 +61,7 @@ if __name__ == "__main__":
                 print("❌ Invalid index.")
 
         elif choice == "0":
-            print("👋 Goodbye!")
+            print("👋 Goodbye! Try to be productive.")
             break
 
         else:
