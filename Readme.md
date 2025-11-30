@@ -18,3 +18,15 @@ The tasks are stored in a JSON file so the data remains even after closing the a
 ---
 
 ## 📦 Project Structure
+
+todo_app/
+│
+├─ data/
+│ └─ tasks.json # Stored tasks
+│
+├─ utils/
+│ ├─ file_manager.py # Read/Write JSON file
+│ └─ validator.py # Validate input
+│
+├─ todo.py # Core functions (CRUD)
+└─ main.py # Command Line Interface
